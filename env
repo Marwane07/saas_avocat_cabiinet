@@ -1,0 +1,10 @@
+# Django Settings
+DJANGO_SECRET_KEY=django-insecure-a-strong-secret-key-here
+DJANGO_DEBUG=True
+DJANGO_ALLOWED_HOSTS=*.jure.ma,localhost,127.0.0.1
+
+# Database Settings
+
+# JWT Settings
+JWT_ACCESS_TOKEN_LIFETIME=30
+JWT_REFRESH_TOKEN_LIFETIME=1440
